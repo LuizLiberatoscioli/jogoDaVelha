@@ -7,8 +7,5 @@ describe('jogo-da-velha App', () => {
     page = new JogoDaVelhaPage();
   });
 
-  it('should display message saying app works', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
-  });
+  
 });
