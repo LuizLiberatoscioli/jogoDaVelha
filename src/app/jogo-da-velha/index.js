@@ -1,1 +1,2 @@
-import * from './jogo-da-velha.module';
+export * from './jogo-da-velha';
+export * from './jogo-da-velha.component';
