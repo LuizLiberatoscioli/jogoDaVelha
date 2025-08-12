@@ -4,8 +4,8 @@ import { Injectable } from '@angular/core';
 export class JogoDaVelhaService {
 
   private readonly TAM_TAB: number = 3;
-  private readonly X: number 1;
-  private readonly O: number 2;
+  private readonly X: number = 1;
+  private readonly O: number = 2;
   private readonly VAZIO: number = 0;
 
   private tabuleiro: any;
