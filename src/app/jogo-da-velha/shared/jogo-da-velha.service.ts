@@ -84,7 +84,7 @@ export class JogoDaVelhaService {
     this.vitoria = this.fimJogo(posX , posY , this.tabuleiro , this._jogador);
 
     // troca o jogador
-    this._jogador = (this._jogador === this.x) ? this.O : this.X; 
+    this._jogador = (this._jogador === this.X) ? this.O : this.X; 
 
     // se o jogo nao acabou o cpu joga
     if (!this.vitoria && this.numMovimentos < 9){
@@ -225,7 +225,7 @@ export class JogoDaVelhaService {
       this.inicializar();
       this._showFinal = false;
       this._showInicio = false;
-      this.showTabuleiro = true;
+      this._showTabuleiro = true;
     }
 
 
