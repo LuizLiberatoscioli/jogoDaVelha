@@ -205,7 +205,7 @@ export class JogoDaVelhaService {
     // retorna se a marcacao de vitoria deve ser exibida para a coordenada informada
 
     exibirVitoria(posX: number , posY: number ):boolean {
-      let exibirVitoria: boolean =false ;
+      let exibirVitoria: boolean = false ;
 
       if (!this.vitoria){
         return exibirVitoria;
